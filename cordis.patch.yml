@@ -1,0 +1,11 @@
+# Editor panel: the document editor and the preview's Edit action. A deployment
+# that already ships the in-box `workspace-editor` and `ui-editor` rows keeps
+# registering nothing twice: those rows are disabled here, and this package's
+# single row carries both halves.
+- insert:
+    - id: editor-panel
+      name: '@deepseek-ai/dsh-editor-panel'
+- id: workspace-editor
+  disabled: true
+- id: ui-editor
+  disabled: true
