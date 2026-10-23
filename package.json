@@ -1,6 +1,6 @@
 {
   "name": "@deepseek-ai/dsh-editor-panel",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Editor panel for the DeepSeek Harness Web/Desktop client: syntax colours, line numbers, git gutter marks, find/replace, and the document preview's Edit action.",
   "license": "MIT",
   "type": "module",
